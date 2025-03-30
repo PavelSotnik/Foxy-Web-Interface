@@ -1,0 +1,20 @@
+# Игнорируем временные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Игнорируем зависимости и сборки
+node_modules/
+dist/
+build/
+
+# Игнорируем файлы конфигурации IDE
+.vs/
+.idea/
+*.iml
+
+# Игнорируем файлы логов
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
